@@ -49,6 +49,13 @@ $package->addMaintainer(
 	'mike@silverorange.com'
 );
 
+$package->addMaintainer(
+	'lead',
+	'nrf',
+	'Nathan Fredrickson',
+	'nathan@silverorange.com'
+);
+
 $package->setPhpDep('5.1.5');
 $package->setPearinstallerDep('1.4.0');
 $package->addPackageDepWithChannel(
