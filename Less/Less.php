@@ -4,10 +4,10 @@ require_once 'Swat/SwatHtmlHeadEntrySet.php';
 require_once 'Swat/SwatJavaScriptHtmlHeadEntry.php';
 
 /**
- * The initial setup of an XML-RPC Ajax component
+ * Less is a CSS pre-processor
  *
  * @package   Less
- * @copyright 2012 silverorange
+ * @copyright 2014 silverorange
  * @license   http://www.apache.org/licenses/LICENSE-2.0 Apache License 2.0
  */
 class Less
@@ -29,7 +29,7 @@ class Less
 		$set = new SwatHtmlHeadEntrySet();
 
 		$set->addEntry(
-			'packages/less/javascript/less-1.3.3.js',
+			'packages/less/javascript/less-1.6.3.js',
 			self::PACKAGE_ID
 		);
 
