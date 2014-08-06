@@ -29,7 +29,7 @@ class Less
 		$set = new SwatHtmlHeadEntrySet();
 
 		$set->addEntry(
-			'packages/less/javascript/less-1.6.3.js',
+			'packages/less/javascript/less-1.7.4.js',
 			self::PACKAGE_ID
 		);
 
