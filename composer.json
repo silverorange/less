@@ -1,0 +1,25 @@
+{
+	"name": "silverorange/less",
+	"description": "LESS CSS Framework",
+	"type": "library",
+	"keywords": [ "less", "css" ],
+	"homepage": "https://github.com/silverorange/less",
+	"license": "Apache-2.0",
+	"authors": [
+		{
+			"name": "Michael Gauthier",
+			"email": "mike@silverorange.com"
+		}
+	],
+	"require": {
+		"php": ">=5.2.1",
+		"silverorange/swat": "^2.2.10",
+		"silverorange/silverorange_autoloader": "*"
+	},
+	"autoload": {
+		"files": [ "autoload.php" ]
+	},
+	"include-path": [
+		"./"
+	]
+}
