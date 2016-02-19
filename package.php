@@ -2,7 +2,8 @@
 
 require_once 'PEAR/PackageFileManager2.php';
 
-$version = '1.7.4so2';
+$version = '1.7.5';
+$api_version = '1.7.4';
 $notes = <<<EOT
 see ChangeLog
 EOT;
@@ -36,7 +37,7 @@ $package->setPackageType('php');
 $package->setLicense('Apache 2.0', 'http://www.apache.org/licenses/LICENSE-2.0');
 $package->setReleaseVersion($version);
 $package->setReleaseStability('stable');
-$package->setAPIVersion('0.0.1');
+$package->setAPIVersion($api_version);
 $package->setAPIStability('stable');
 $package->setNotes($notes);
 
