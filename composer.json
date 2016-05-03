@@ -13,11 +13,10 @@
 	],
 	"require": {
 		"php": ">=5.2.1",
-		"silverorange/swat": "^2.2.10",
-		"silverorange/silverorange_autoloader": "*"
+		"silverorange/swat": "^2.2.10"
 	},
 	"autoload": {
-		"files": [ "autoload.php" ]
+		"classmap": [ "Less/" ]
 	},
 	"include-path": [
 		"./"
