@@ -1,8 +1,5 @@
 <?php
 
-require_once 'Swat/SwatHtmlHeadEntrySet.php';
-require_once 'Swat/SwatJavaScriptHtmlHeadEntry.php';
-
 /**
  * Less is a CSS pre-processor
  *
