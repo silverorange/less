@@ -13,7 +13,7 @@
 	],
 	"require": {
 		"php": ">=5.2.1",
-		"silverorange/swat": "^3.0.0"
+		"silverorange/swat": "^4.0.0"
 	},
 	"autoload": {
 		"classmap": [ "Less/" ]
